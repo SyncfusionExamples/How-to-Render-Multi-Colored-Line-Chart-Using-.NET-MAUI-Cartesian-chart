@@ -55,9 +55,9 @@ Set the CustomBrushes collection to the [PaletteBrushes](https://help.syncfusion
 <chart:SfCartesianChart>
     . . .
     <chart:LineSeries ItemsSource="{Binding Data}"
-                        XBindingPath="Year"
-                        YBindingPath="Rainfall"
-                        PaletteBrushes="{Binding CustomBrushes}">
+                      XBindingPath="Year"
+                      YBindingPath="Rainfall"
+                      PaletteBrushes="{Binding CustomBrushes}">
     </chart:LineSeries>
 </chart:SfCartesianChart>
 ```
@@ -78,3 +78,11 @@ this.Content = chart;
 ```
 **Output**
  ![MultiColoredLineChart.png](https://support.syncfusion.com/kb/agent/attachment/article/19737/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM3ODY5Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.HKkmE6oUup9D4987Qbt4qhPPfM416GeeBeXXuzbGdQU)
+
+**Troubleshooting**
+
+Path too long exception
+
+If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
+
+For more details, refer to the KB on [how to Render Multi-Colored Line Chart Using .NET MAUI Cartesian chart]().
