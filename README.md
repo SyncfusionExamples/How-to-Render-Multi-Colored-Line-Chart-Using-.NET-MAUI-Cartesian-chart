@@ -50,6 +50,7 @@ public class RainfallViewModel
 **Step 2:  Applying PaletteBrushes to the Series**
 
 Set the CustomBrushes collection to the [PaletteBrushes](https://help.syncfusion.com/cr/maui-toolkit/Syncfusion.Maui.Toolkit.Charts.ChartSeries.html#Syncfusion_Maui_Toolkit_Charts_ChartSeries_PaletteBrushes) property of the Line series. 
+
 **[XAML]**
 ```
 <chart:SfCartesianChart>
