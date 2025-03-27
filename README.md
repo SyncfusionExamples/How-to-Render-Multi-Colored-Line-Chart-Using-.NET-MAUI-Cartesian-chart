@@ -86,4 +86,4 @@ Path too long exception
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For more details, refer to the KB on [how to Render Multi-Colored Line Chart Using .NET MAUI Cartesian chart]().
+For more details, refer to the KB on [how to Render Multi-Colored Line Chart Using .NET MAUI Cartesian chart](https://support.syncfusion.com/kb/article/19737/how-to-render-multi-colored-line-chart-using-net-maui-cartesian-chart).
